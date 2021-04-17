@@ -30,6 +30,7 @@ $ git clone https://github.com/MrDarkG/metzler.git
 ```
 After that you need to install required packages:
 ```
+$ cd metzler
 $ composer update
 $ composer install
 $ npm install
