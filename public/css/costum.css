@@ -1,0 +1,65 @@
+.costum-card{
+	background: white;
+	border-radius: 14px;
+	border:1px solid #00000044;
+	padding: 20px;
+	height: 100%;
+}
+.post-title{
+	font-size:16px;
+	font-weight: bold;
+}
+.post-date{
+	color:gray;
+	font-size:10px;
+}
+.post-image{
+	width: 100%;
+}
+.post-heading{
+	position: relative;
+
+}
+a{
+	color:unset!important;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+
+}
+.pagination-links{
+	padding: 10px;
+	background: white;
+	border-radius: 8px;
+	border:1px solid #00000044;
+	margin-right: 10px;
+	width: 40px;
+	height: 40px;
+	line-height: 20px;
+	text-align: center;
+
+}
+.pagination-active{
+	background: red;
+	color:white!important;
+}
+.author-avatar{
+	
+	border:1px solid #00000044;
+	padding: 14px;
+	background: white;
+
+}
+.author-avatar img{
+	height: 30px;
+	width: 30px;
+}
+.create-content{
+	width:calc(100% - 320px);
+	padding-bottom: 6px;
+}
+.create-content textarea{
+	height: 100%;
+	resize:none;
+}
