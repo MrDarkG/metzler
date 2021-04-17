@@ -65,18 +65,41 @@ For Authentification as Administrator use:
 Email: admin@mail.com
 Password: roottoor
 ```
+Registration route is disabled so you guest cant register by their own
+## Email verification
+email verification middleware is included so if you want full futures you must change configuration of smtp. open **.env** file and update following information
+```
+MAIL_HOST=
+MAIL_PORT=
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_ENCRYPTION=
+MAIL_FROM_ADDRESS=
+```
+with your smtp provider information
+After That Forget password functions will also work perfectly.
 
 ## Privilegies and roles
 
 On this application only **admin** can:
 
-- **Add**
-- **Edit**
-- **Delete**
+- [x] **Add User**
+- [x] **Edit User**
+- [x] **Delete User**
+- [x] **Write Post**
+- [x] **Edit Post**
+- [x] **Delete Post**
 
-Writing post is allowed for both role:
-- **Admin**
-- **writer**
+Writer :
+- [ ] **Add User**
+- [ ] **Edit User**
+- [ ] **Delete User**
+- [x] **Write Post**
+- [x] **Edit Post**
+- [x] **Delete Post**
+
+
+
 
 User can have only one role at a time
 
