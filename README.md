@@ -17,8 +17,6 @@ This is project for [metzler-vater.com](https://metzler-vater.com/). Project's p
 
 ## User Packages/frameworks
 
-This is project for [metzler-vater.com](https://metzler-vater.com/). Project's perfect Workable inviroments are  :
-
 - Laravel v8.37.0.
 - Vue.js v3.
 - Jquery v3.5.1.
